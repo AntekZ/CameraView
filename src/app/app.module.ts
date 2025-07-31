@@ -3,10 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { DeviceListComponent } from './device-list/device-list.component';
+import { CameraContentGridComponent } from './camera-content-grid/camera-content-grid.component';
+import { DriverConsoleContentComponent } from './driver-console-content/driver-console-content.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    DashboardComponent,
+    DeviceListComponent,
+    CameraContentGridComponent,
+    DriverConsoleContentComponent
   ],
   imports: [
     BrowserModule,
