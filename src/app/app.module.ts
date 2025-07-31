@@ -8,6 +8,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { DeviceListComponent } from './device-list/device-list.component';
 import { CameraContentGridComponent } from './camera-content-grid/camera-content-grid.component';
 import { DriverConsoleContentComponent } from './driver-console-content/driver-console-content.component';
+import { CameraViewComponent } from './camera-view/camera-view.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DriverConsoleContentComponent } from './driver-console-content/driver-c
     DashboardComponent,
     DeviceListComponent,
     CameraContentGridComponent,
-    DriverConsoleContentComponent
+    DriverConsoleContentComponent,
+    CameraViewComponent
   ],
   imports: [
     BrowserModule,
