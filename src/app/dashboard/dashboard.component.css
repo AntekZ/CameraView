@@ -6,14 +6,14 @@
 }
 .device-list {
   flex: 1;
-  max-width: 33.33%;
+  max-width: 33%;
   background-color: aliceblue;
   border-right: 1px solid #ccc; /* opcjonalnie */
 }
 
 .camera-content-grid {
   flex: 2;
-  max-width: 66.66%;
+  max-width: 67%;
   background-color: antiquewhite;
   padding-left: 10px; /* odstęp między kolumnami (opcjonalny) */
 }

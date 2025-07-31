@@ -5,3 +5,13 @@
     display: flex;
     flex-direction: column;
 }
+.header {
+    /* Jeśli nagłówek ma stałą wysokość */
+    flex: 0 0 auto; /* Niech zajmuje tyle miejsca, ile potrzebuje jego zawartość */
+    /* Możesz też ustawić stałą wysokość np. height: 60px; */
+}
+
+.dashboard {
+    flex: 1; /* Pozwól dashboardowi zająć całą pozostałą przestrzeń pionową */
+    min-height: 0; /* Ważne dla flex item, aby nie ignorować wysokości */
+}
