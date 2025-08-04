@@ -1,5 +1,24 @@
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
+# Ignoruj katalogi node_modules w obu projektach
+/node_modules
+/Rtsp-backend/node_modules
+
+# Ignoruj pliki blokady pakietów
+/package-lock.json
+/Rtsp-backend/package-lock.json
+
+# Ignoruj katalogi kompilacji dla frontendu
+/dist
+/out-tsc
+
+# Inne typowe pliki do zignorowania
+.angular/cache
+.vscode/
+npm-debug.log*
+.idea/
+*.log
+
 # Compiled output
 /dist
 /tmp

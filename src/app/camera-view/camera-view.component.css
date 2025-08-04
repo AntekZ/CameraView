@@ -1,6 +1,12 @@
 .single-camera-view{
-    background-color: lightblue;
-    height: 450px;
+    background-color: black;
+    height: 400px;
     width: 450px;
     display: flex;
+}
+canvas {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
