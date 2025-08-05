@@ -1,0 +1,22 @@
+.device-list-header {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin-bottom: 1px;
+    background: #fafbfc;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.device-list-header > div {
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 1.05em;
+    color: #333;
+    position: relative;
+}
+
+.device-list-header > div:not(:last-child) {
+    border-right: 1px solid #e0e0e0;
+}

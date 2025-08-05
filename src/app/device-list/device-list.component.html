@@ -1,1 +1,9 @@
-<p>device-list works!</p>
+<div class="device-list-header">
+    <div class="device-name">Device</div>
+    <div class="device-Ip">Ip Address</div>
+    <div class="device-status">Status</div>
+</div>
+
+<div class="device-list">
+    <app-device-item  *ngFor="let camera of cameras" [camera]="camera"  ></app-device-item>
+</div>
