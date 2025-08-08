@@ -9,7 +9,7 @@ declare var JSMpeg: any;
 })
 export class CameraViewComponent implements AfterViewInit {
    @ViewChild('canvas', { static: true }) canvasRef!: ElementRef<HTMLCanvasElement>;
-
+  
   ngAfterViewInit() {
     // Po załadowaniu komponentu, połącz się z WebSocketem
     // Backend musi już streamować na ws://localhost:9999
@@ -17,4 +17,5 @@ export class CameraViewComponent implements AfterViewInit {
       canvas: this.canvasRef.nativeElement
     });
   }
+
 }

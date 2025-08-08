@@ -1,5 +1,6 @@
 //klasa odpowiedzialna do przetwarzania strumieni RTSP
 // używa biblioteki node-rtsp-stream do obsługi RTSP i WebSocket
+import {cameras} from './CamerasData.js';
 
 const Stream = require('node-rtsp-stream');
 

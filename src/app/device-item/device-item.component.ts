@@ -1,4 +1,4 @@
-import { Component, Input, OnInit,OnChanges, SimpleChanges} from '@angular/core';
+import { Component, Input} from '@angular/core';
 import { Camera } from '../../model/camera';
 
 @Component({
@@ -8,5 +8,9 @@ import { Camera } from '../../model/camera';
 })
 export class DeviceItemComponent  {
   @Input() camera!: Camera;
-
+  
+  //metoda powinna byc asynchroniczna-zmiennic.
+  onCameraClick():void {
+    console.log('Camera clicked:', this.camera.ip);
+  }
 }
